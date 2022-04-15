@@ -1,0 +1,97 @@
+* {
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.bg-primary-color {
+    background: #242735;
+}
+
+.bg-secundary-color {
+    background: #ff5874;
+}
+
+.bg-third-color {
+    background: #00d5ed;
+}
+
+.primary-color {
+    color: #242735
+}
+
+.secundary-color {
+    color: #ff5874;
+}
+
+.third-color {
+    color: #00d5ed;
+}
+
+#navbar {
+    border-bottom: 1px solid #ff5874;
+}
+
+#navbar a:hover {
+    color: #ff5874;
+}
+
+#navbar a:active {
+    border-bottom: 1px solid #ff5874;
+}
+
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand i {
+    width: 60px;
+    color: #00d5ed;
+    border-bottom: 2px solid #242735;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+/* Slider */
+#slider {
+    margin:8em auto;
+    margin-bottom: 1em;
+    max-width: 500px;
+   
+}
+
+
+#slider .btn{
+    padding:0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #fff0ff;
+    font-size: 3em;
+}
+
+@media(min-width:768px){
+    #slider{
+        max-width: 400px;
+        margin:8em auto
+    }
+    .carousel-indicators {
+        bottom:3em;
+        color: #242735;
+    }
+    .carousel-indicators [data-bs-target]{
+        background-color: #fff;
+        opacity: 0.8;
+    }
+}
+
+/* mini banners */
